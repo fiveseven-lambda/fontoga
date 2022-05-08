@@ -1,0 +1,6 @@
+#!/usr/local/bin/fontforge
+New()
+Reencode('unicode')
+Select('u7269')
+Import('物.svg')
+Generate('font.ttf')
